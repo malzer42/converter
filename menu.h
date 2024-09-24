@@ -1,14 +1,10 @@
-//
-// C++ Interface: menu
-//
-// Description: 
-//
-//
-// Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
+/**
+ * File: menu.h
+ * Programmer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: Interface of the menu.c
+ */
+
 #ifndef MENU_H
 #define MENU_H
 #include <stdio.h>
@@ -20,7 +16,13 @@
 #include "area.h"
 #include "temperature.h"
 
+#define ONE 1
+#define TWO 2
+#define THREE 3
+#define FOUR 4
+#define FIVE 5
+#define SIX 6
+
 void menu(void);
 
-  
 #endif

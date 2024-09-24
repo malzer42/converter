@@ -1,14 +1,10 @@
-//
-// C++ Interface: error
-//
-// Description: 
-//
-//
-// Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
+/**
+ * File: error.h
+ * Programmer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date creation (modification): 20240923 (20240923)
+ * Description: header file of the error.c 
+ */
+
 #ifndef ERROR_H
 #define ERROR_H
 

@@ -1,14 +1,9 @@
-/*
-*  C Implementation: menu
-*
-* Description: 
-*
-*
-* Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-*
-* Copyright: See COPYING file that comes with this distribution
-*
-*/
+/**
+ * File: menu.c
+ * Programmer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: Implementation of the function menu
+ */
 
 #include "menu.h"
 
@@ -33,32 +28,32 @@ void menu(void)
 	puts("\t\t\t\t\t\t\t\t\t\t6. Weight");
 	
 	printf("\n\t\t\t\t\t\t\t\t\tYour choice (-1 to quit): ? ");
-	
+
 	int choice = 0;
-	scanf("%d" , &choice);
-	
+	scanf("%d", &choice);
+
 	switch( choice ){
-		case 1:
+		case ONE:
 			area();
 			menu();
 			break;
-		case 2:
+		case TWO:
 			currency();
 			menu();
 			break;
-		case 3:
+		case THREE:
 			length();
 			menu();
 			break;
-		case 4:
+		case FOUR:
 			temperature();
 			menu();
 			break;
-		case 5:
+		case FIVE:
 			volume();
 			menu();
 			break;
-		case 6:
+		case SIX:
 			weight();
 			menu();
 			break;

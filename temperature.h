@@ -1,14 +1,9 @@
-//
-// C++ Interface: temperature
-//
-// Description: 
-//
-//
-// Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
+/**
+ * File: temperature.h
+ * Progrgammer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: interface of the function temperature
+ */
 
 #ifndef TEMPERATURE_H
 #define TEMPERATURE_H

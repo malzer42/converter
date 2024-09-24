@@ -1,14 +1,10 @@
-/*
-*  C Implementation: volume
-*
-* Description: 
-*
-*
-* Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-*
-* Copyright: See COPYING file that comes with this distribution
-*
-*/
+/**
+ * File: volume.c
+ * Programmer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: Implementation of the volume function
+ */
+
 #include "volume.h"
 
 void conversion_volume(float);

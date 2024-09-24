@@ -1,14 +1,9 @@
-/*
-*  C Implementation: temperature
-*
-* Description: 
-*
-*
-* Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-*
-* Copyright: See COPYING file that comes with this distribution
-*
-*/
+/**
+ * File: temperature.c
+ * Programmer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: Implementation of the temperature function
+ */
 
 #include "temperature.h"
 
@@ -51,11 +46,11 @@ void conversion_temperature(float arg)
 	
 	//const float FAHR2CEL = -17.222222;
 	
-	const int STEP = 20;
-	int i = 0.0;
+	const float STEP = 20.0;
+	float i = 0.0;
         
 	while( i <= arg ){
-		printf("\t\t\t\t\t\t\t\t|%d|%18.2f|\n", i , (5.0/9.0)*(i -32.0) );
+		printf("\t\t\t\t\t\t\t\t|%18.2f|%18.2f|\n", i , (5.0/9.0)*(i -32.0) );
 		puts("\t\t\t\t\t\t\t\t---------------------------------------");
 		/*puts("\t\t\t\t\t\t _____________________________________");*/    
 		i += STEP;

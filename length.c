@@ -1,14 +1,9 @@
-/*
-*  C Implementation: length
-*
-* Description: 
-*
-*
-* Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-*
-* Copyright: See COPYING file that comes with this distribution
-*
-*/
+/**
+ * File: length.c
+ * Programmer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: Implementation of the length function
+ */
 
 #include "length.h"
 
@@ -55,11 +50,11 @@ void conversion_length(float arg)
 	const double MTR2YARD = 1.0936;
 	const double MTR2MILE = 0.000621;
 	
-	const int STEP = 10;
-	int i = 0.0;
+	const float STEP = 10.0;
+	float i = 0.0;
         
 	while( i <= arg ){
-		printf("\t\t\t\t\t\t|%d|%18.2f|%18.2f|%18.2f|\n", i , MTR2FEET * i , MTR2YARD * i , MTR2MILE * i);
+		printf("\t\t\t\t\t\t|%18.2f|%18.2f|%18.2f|%18.2f|\n", i , MTR2FEET * i , MTR2YARD * i , MTR2MILE * i);
 		i += STEP;
 	}
 	puts("\t\t\t\t\t\t|__________________|__________________|__________________|__________________|");

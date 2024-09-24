@@ -1,14 +1,10 @@
-//
-// C++ Interface: area
-//
-// Description: 
-//
-//
-// Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
+/**
+ * File: area.h
+ * Progammer: Pierre Abraham Mulamba (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: header file for the file area.c 
+ *              This file must be include in the file area.c 
+*/
 
 #ifndef AREA_H
 #define AREA_H
@@ -16,6 +12,6 @@
 #include <stdio.h>
 #include <stdlib.h>
  
-void area(void);
+void area(void); /* declation of the function area*/
 
 #endif

@@ -1,14 +1,9 @@
-/*
-*  C Implementation: weight
-*
-* Description: 
-*
-*
-* Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-*
-* Copyright: See COPYING file that comes with this distribution
-*
-*/
+/**
+ * File: weight.c
+ * Programmer(s): Pierre Abraham Mulamba
+ * Date of creation (modification): 20230923 (20240923)
+ * Description: Implementation of the weight function
+ */
 
 #include "weight.h"
 

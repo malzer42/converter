@@ -1,14 +1,9 @@
-/*
-*  C Implementation: area
-*
-* Description: 
-*
-*
-* Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-*
-* Copyright: See COPYING file that comes with this distribution
-*
-*/
+/**
+ * File: area.c
+ * Programmer(s): Pierre Abraham Mulamba
+ * Date of creation (modification): 2009 (20240923)
+ * Description: Implementation of the function area
+ */
 
 /* outline: program to convert area 
 
@@ -62,11 +57,11 @@ void conversion_area(float arg)
 	const double MSQR2YDSQR = 1.196;
 	const double MSQR2A = 0.01;
 	
-	const int STEP = 20;
-	int i = 0.0;
+	const float STEP = 20.0;
+	float i = 0.0;
         
 	while( i <= arg ){
-		printf("\t\t\t\t\t\t|%d|%18.2f|%18.2f|%18.2f|\n", i , MSQR2FTSQR * i , MSQR2YDSQR * i , MSQR2A * i);    
+		printf("\t\t\t\t\t\t|%18.2f|%18.2f|%18.2f|%18.2f|\n", i , MSQR2FTSQR * i , MSQR2YDSQR * i , MSQR2A * i);    
 		i += STEP;
 	}
 	puts("\t\t\t\t\t\t|__________________|__________________|__________________|__________________|");

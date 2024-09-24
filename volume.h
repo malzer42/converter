@@ -1,14 +1,10 @@
-//
-// C++ Interface: volume
-//
-// Description: 
-//
-//
-// Author: Pierre Abraham Mulamba,,, <pam@falcon>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
+/**
+ * File: volume.h
+ * Programmer(s): Pierre Abraham Mulamba, <pmulamba@gmail.com>, (C) 2024
+ * Date of creation (modification): 20240923 (20240923)
+ * Description: Interface of the function volume
+ */
+
 #ifndef VOLUME_H
 #define VOLUME_H
 
