@@ -58,19 +58,19 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "makefile.launchConfigurations": [
     {
-      "cwd": "/home/pam/c/C_PROGRAMMING/converter",
-      "binaryPath": "/home/pam/c/C_PROGRAMMING/converter/converter",
+      "cwd": "/home/pam/c/converter",
+      "binaryPath": "/home/pam/c/converter/converter",
       "binaryArgs": []
     },
     {
-      "cwd": "/home/pam/c/C_PROGRAMMING/converter",
-      "binaryPath": "/home/pam/c/C_PROGRAMMING/converter/xconverter",
-      "binaryArgs": []
+      "cwd": "/home/pam/c/converter",
+      "binaryPath": "/home/pam/c/converter/xconverter",
+      "binaryArgs": ["kadogo"]
     },
     {
-      "cwd": "/home/pam/c/C_PROGRAMMING/converter/bin",
-      "binaryPath": "/home/pam/c/C_PROGRAMMING/converter/bin/xconverter",
-      "binaryArgs": []
+      "cwd": "/home/pam/c/converter/bin",
+      "binaryPath": "/home/pam/c/converter/bin/xconverter",
+      "binaryArgs": ["kadogo"]
     }
   ]
 }

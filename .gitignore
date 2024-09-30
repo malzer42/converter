@@ -17,3 +17,5 @@ Makefile~
 *.exe
 converter
 parking_lot.txt
+.vscode
+*.json

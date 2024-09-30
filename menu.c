@@ -58,7 +58,8 @@ void menu(void)
 			menu();
 			break;
 		default:
-			system("./textanimate.exe");
+			//system("./textanimate.exe");
+			system("speedtest");
 			break;
 	}
 }
