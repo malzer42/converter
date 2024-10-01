@@ -10,6 +10,7 @@
  
 #include <stdio.h>
 #include <stdlib.h>
+#include "menu_temperature.h"
 
 void temperature(void);
 

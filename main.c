@@ -26,7 +26,6 @@ int main(int argc , char* argv[])
 		system("clear");
 		printf("\n");
 		system("speedtest");
-		// system("./textanimate");
 		menu();	
 	}else{
 		system("clear");
