@@ -7,7 +7,7 @@
 
 #include "fahrenheit.h"
 
-void celsius_to_fahrenheit(double);
+void celsius_to_fahrenheit(double cels);
 
 void fahrenheit(void)
 {
@@ -15,15 +15,15 @@ void fahrenheit(void)
     system("date");
     puts("\t\t\t\t\t\t\t ________________________________________________________");
     puts("\n\t\t\t\t\t\t\t|***** Program to convert Temperatures:            *****|");
-    puts("\t\t\t\t\t\t\t|*****          °C to °F              *****|");
-    puts("\t\t\t\t\t\t\t|*****             By P.A. Mulamba                 *****|");
+    puts("\t\t\t\t\t\t\t|*****          °C to °F                           *****|");
+    puts("\t\t\t\t\t\t\t|*****       By P.A. Mulamba                       *****|");
     puts("\t\t\t\t\t\t\t|_______________________________________________________|");
 
     /* Section: declaration and initialization */
     double celsius_ = 0.0;
 
     /* Section: input   */
-    printf("\n\t\t\t\t\t\t\t\tEnter the numeric value of °C to convert to °F (-1 to return) :? ");
+    printf("\n\t\t\t\t\t\t\tEnter the value of °C to convert to °F (-1 to return) :? ");
 
     while (scanf("%lf", &celsius_))
     {
@@ -39,18 +39,18 @@ void celsius_to_fahrenheit(double cel)
     system("date");
     puts("\t\t\t\t\t\t\t ________________________________________________________");
     puts("\n\t\t\t\t\t\t\t|***** Program to convert Temperatures:            *****|");
-    puts("\t\t\t\t\t\t\t|*****          °C to °F              *****|");
-    puts("\t\t\t\t\t\t\t|*****             By P.A. Mulamba                 *****|");
+    puts("\t\t\t\t\t\t\t|*****          °C to °F                           *****|");
+    puts("\t\t\t\t\t\t\t|*****     By P.A. Mulamba                         *****|");
     puts("\t\t\t\t\t\t\t|_______________________________________________________|");
     puts("\n\t\t\t\t\t\t\t\t ______________________________________");
-    puts("\n\t\t\t\t\t\t\t\t|      °C        |     °F          |");
+    puts("\n\t\t\t\t\t\t\t\t|      °C          |      °F          |");
     puts("\t\t\t\t\t\t\t\t|__________________|__________________|");
 
     double fahrenheit_ = 0.0;
     fahrenheit_ = (9.0 / 5.0) * (cel) +  CONVERSION_FACTOR;
-    printf("\t\t\t\t\t\t\t\t|%18.2f°C = %18.2f°F|\n", cel, fahrenheit_);
-    puts("\t\t\t\t\t\t\t\t---------------------------------------");
-    puts("\t\t\t\t\t\t\t\t|      °C        |      °F         |");
+    printf("\n\t\t\t\t\t\t\t\t\t  %4.2f°C = %4.2f°F              \n", cel, fahrenheit_);
+    puts("\n\t\t\t\t\t\t\t\t---------------------------------------");
+    puts("\t\t\t\t\t\t\t\t|      °C          |      °F          |");
     puts("\t\t\t\t\t\t\t\t|__________________|__________________|\n");
-    printf("\n\t\t\t\t\t\t\t\tEnter the numeric value of °C to convert to °F (-1 to return) :? ");
+    printf("\n\t\t\t\t\t\t\tEnter the value of °C to convert to °F (-1 to return) :? ");
 }
