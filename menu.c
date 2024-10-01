@@ -59,7 +59,7 @@ void menu(void)
 			break;
 		default:
 			//system("./textanimate.exe");
-			system("speedtest");
+			//system("speedtest");
 			break;
 	}
 }

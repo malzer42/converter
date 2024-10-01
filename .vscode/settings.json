@@ -65,12 +65,16 @@
     {
       "cwd": "/home/pam/c/converter",
       "binaryPath": "/home/pam/c/converter/xconverter",
-      "binaryArgs": ["kadogo"]
+      "binaryArgs": [
+        "kadogo"
+      ]
     },
     {
       "cwd": "/home/pam/c/converter/bin",
       "binaryPath": "/home/pam/c/converter/bin/xconverter",
-      "binaryArgs": ["kadogo"]
+      "binaryArgs": [
+        "kadogo"
+      ]
     }
   ]
 }
