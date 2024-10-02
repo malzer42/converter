@@ -21,15 +21,16 @@ void fahrenheit(void)
 
     /* Section: declaration and initialization */
     double celsius_ = 0.0;
+    bool answer = 0;
 
-    /* Section: input   */
-    printf("\n\t\t\t\t\t\t\tEnter the value of °C to convert to °F (-1000 to quit) :? ");
-
-    while (scanf("%lf", &celsius_))
-    {
-        if (celsius_ == -1000)return;
+    do{
+        /* Section: input */
+        printf("\n\t\t\t\t\t\t\tEnter the value of °C to convert to °F  :? ");
+        scanf("%lf", &celsius_);
         celsius_to_fahrenheit(celsius_);
-    }
+        printf("\n\n\t\t\t\t\t\t\tDo you want to continue (press 1 for yes or 0 for no) ? ");
+        scanf("%d", &answer);
+    } while (answer != 0);
 }
 
 void celsius_to_fahrenheit(double cel)
@@ -47,9 +48,9 @@ void celsius_to_fahrenheit(double cel)
 
     double fahrenheit_ = 0.0;
     fahrenheit_ = (9.0 / 5.0) * (cel) +  CONVERSION_FACTOR;
-    printf("\n\t\t\t\t\t\t\t\t\t  %4.2f°C = %4.2f°F              \n", cel, fahrenheit_);
+    printf("\n\t\t\t\t\t\t\t\t     %4.6f °C = %4.6f °F              \n", cel, fahrenheit_);
     puts("\n\t\t\t\t\t\t\t\t---------------------------------------");
     puts("\t\t\t\t\t\t\t\t|      °C          |      °F          |");
     puts("\t\t\t\t\t\t\t\t|__________________|__________________|\n");
-    printf("\n\t\t\t\t\t\t\tEnter the value of °C to convert to °F (-1000 to quit) :? ");
+    //printf("\n\t\t\t\t\t\t\tEnter the value of °C to convert to °F (-1000 to quit) :? ");
 }
