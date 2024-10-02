@@ -25,7 +25,7 @@ int main(int argc , char* argv[])
 	if(strcmp( argv[1] , psswrd) == 0 ){
 		system("clear");
 		printf("\n");
-		system("speedtest");
+		//system("speedtest");
 		menu();	
 	}else{
 		system("clear");
