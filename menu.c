@@ -33,27 +33,27 @@ void menu(void)
 	scanf("%d", &choice);
 
 	switch( choice ){
-		case ONE:
+		case AREA:
 			area();
 			menu();
 			break;
-		case TWO:
+		case CURRENCY:
 			currency();
 			menu();
 			break;
-		case THREE:
+		case LENGTH:
 			length();
 			menu();
 			break;
-		case FOUR:
+		case TEMPERATURE:
 			temperature();
 			menu();
 			break;
-		case FIVE:
+		case VOLUME:
 			volume();
 			menu();
 			break;
-		case SIX:
+		case WEIGHT:
 			weight();
 			menu();
 			break;

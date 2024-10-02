@@ -78,7 +78,7 @@ YELLOW = \033[1;33m
 BLUE = \033[1;34m
 NC = \033[1;0m
 
-CC = g++-13 -std=c++17 -Wno-deprecated -pedantic # -fguiding-decls
+CC = g++-14 -std=c++17 -Wno-deprecated -pedantic # -fguiding-decls
 
 all: $(BIN)/$(EXEC)
 	@echo "$(RED)Done!$(NC)"

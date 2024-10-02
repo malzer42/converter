@@ -12,29 +12,28 @@ void fahrenheit_to_celsius(double fahr);
 
 void celsius(void)
 {
-    system("clear");
-    system("date");
+    //system("clear");
+    //system("date");
     puts("\t\t\t\t\t\t\t ________________________________________________________");
     puts("\n\t\t\t\t\t\t\t|***** Program to convert Temperatures:            *****|");
     puts("\t\t\t\t\t\t\t|*****          °F to °C                           *****|");
     puts("\t\t\t\t\t\t\t|*****       By P.A. Mulamba                       *****|");
     puts("\t\t\t\t\t\t\t|_______________________________________________________|");
     
-    /* Section: declaration and initialization */
-    double fahrenheit_ = 0.0;
+    
 
     /* Section: input   */
-    printf("\n\t\t\t\t\t\t\tEnter the value of °F to convert to °C (-1 to return) :? ");
+    double fahrenheit_ = 0.0;
+
+    printf("\n\t\t\t\t\t\t\tEnter the value of °F to convert to °C (-1000 to quit) :? ");
 
     while (scanf("%lf", &fahrenheit_))
     {
-        if(fahrenheit_ == -1)
-            return;
+        if(fahrenheit_ == -1000)return;
         fahrenheit_to_celsius(fahrenheit_);
-        
     }
-    
 }
+
 
 void fahrenheit_to_celsius(double fahr)
 {
@@ -55,6 +54,6 @@ void fahrenheit_to_celsius(double fahr)
     printf("\n\t\t\t\t\t\t\t\t\t  %4.2f°F = %4.2f°C              \n", fahr, celsius_);
     puts("\n\t\t\t\t\t\t\t\t---------------------------------------");
     puts("\t\t\t\t\t\t\t\t|      °F          |      °C          |");
-    puts("\t\t\t\t\t\t\t\t|__________________|__________________|\n");
-    printf("\n\t\t\t\t\t\t\tEnter the value of °F to convert to °C (-1 to return) :? ");
+    puts("\t\t\t\t\t\t\t\t|__________________|__________________|");
+    printf("\n\t\t\t\t\t\t\tEnter the value of °F to convert to °C (-1000 to quit)  :? ");
 }

@@ -16,12 +16,17 @@
 #include "area.h"
 #include "temperature.h"
 
-#define ONE 1
-#define TWO 2
-#define THREE 3
-#define FOUR 4
-#define FIVE 5
-#define SIX 6
+
+enum Choice
+{
+    ZERO,
+    AREA,
+    CURRENCY,
+    LENGTH,
+    TEMPERATURE,
+    VOLUME,
+    WEIGHT
+};
 
 void menu(void);
 
