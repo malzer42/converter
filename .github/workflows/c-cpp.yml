@@ -16,6 +16,4 @@ jobs:
     - name: make
       run: make
     - name: make 
-      ru :
-    - name: make distcheck
-      run: make distcheck
+      run: make run
